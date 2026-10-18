@@ -1,0 +1,136 @@
+{
+  "project_name": "idea1",
+  "concurrency_limit": 3,
+  "tasks": [
+    {
+      "id": "T-01",
+      "name": "Init Directory Structure",
+      "doc_path": "tasks/T-01.md",
+      "dependencies": [],
+      "status": "FAILED",
+      "branch_name": "task/T-01",
+      "retries": 0
+    },
+    {
+      "id": "T-02",
+      "name": "Initialize Virtual Environment",
+      "doc_path": "tasks/T-02.md",
+      "dependencies": [
+        "T-01"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-03",
+      "name": "Install Dependencies",
+      "doc_path": "tasks/T-03.md",
+      "dependencies": [
+        "T-02"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-04",
+      "name": "Copy Code Blocks",
+      "doc_path": "tasks/T-04.md",
+      "dependencies": [
+        "T-03"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-05",
+      "name": "Run Mock Ticket System",
+      "doc_path": "tasks/T-05.md",
+      "dependencies": [
+        "T-04"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-06",
+      "name": "Sign Up for Jira Sandbox",
+      "doc_path": "tasks/T-06.md",
+      "dependencies": [
+        "T-05"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-07",
+      "name": "Create Service Project",
+      "doc_path": "tasks/T-07.md",
+      "dependencies": [
+        "T-06"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-08",
+      "name": "Generate API Auth Token",
+      "doc_path": "tasks/T-08.md",
+      "dependencies": [
+        "T-07"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-09",
+      "name": "Replace Mock Ticket Adapter",
+      "doc_path": "tasks/T-09.md",
+      "dependencies": [
+        "T-08"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-10",
+      "name": "Register for Microsoft 365 Developer Program",
+      "doc_path": "tasks/T-10.md",
+      "dependencies": [
+        "T-09"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-11",
+      "name": "Install Teams Toolkit",
+      "doc_path": "tasks/T-11.md",
+      "dependencies": [
+        "T-10"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    },
+    {
+      "id": "T-12",
+      "name": "Scaffold New Bot Application",
+      "doc_path": "tasks/T-12.md",
+      "dependencies": [
+        "T-11"
+      ],
+      "status": "PENDING",
+      "branch_name": null,
+      "retries": 0
+    }
+  ]
+}

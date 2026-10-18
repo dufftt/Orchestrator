@@ -1,0 +1,16 @@
+# config.yaml
+
+orchestrator:
+  pipeline_file: "pipeline.json"
+  concurrency_limit: 3
+  timeout_seconds: 300
+
+workspace:
+  base_dir: "."
+  base_branch: "main"
+
+agent:
+  # Choose which adapter to load: 'aider' or 'llama_cpp'
+  provider: "llama_cpp"
+  model: "llama-3.5-instruct"
+  api_base: "http://127.0.0.1:8080/v1"
