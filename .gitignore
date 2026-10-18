@@ -5,6 +5,8 @@ build/
 dist/
 wheels/
 *.egg-info
+MASTER_SPEC.md
+pipeline.json
 
 # Virtual environments
 .venv
